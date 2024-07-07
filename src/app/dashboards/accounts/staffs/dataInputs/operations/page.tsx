@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import IndexInputCrop from './indexInputCrops'
 import IndexInputItem from './indexInputItems'
 import IndexInputLivestock from './indexInputLivestocks'
-import IndexListInputLivestock from './indexInputListLivestock'
+import LivestockList from './indexInputListLivestock'
 import IndexInputService from './indexInputServices'
 
 const page = () => {
@@ -51,7 +51,7 @@ const page = () => {
         { livestockMenu ? ( 
           <>
             <div className='w-[30%]'>< IndexInputLivestock/></div>
-            <div className=' p-2'>< IndexListInputLivestock/></div>
+            <div className='w-[100%]'>< LivestockList/></div>
           </>
         ) : null }
         
